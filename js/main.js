@@ -86,7 +86,7 @@
   function handlePercentage(filledInPixels) {
     filledInPixels = filledInPixels || 0;
     console.log(Math.round(filledInPixels*100) + '%');
-    if (filledInPixels < 0.3) {
+    if (filledInPixels < 0.1) {
       canvas.parentNode.removeChild(canvas);
       centoLink.setAttribute('class', 'active-link');
     }
