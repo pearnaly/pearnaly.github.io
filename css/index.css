@@ -1,9 +1,17 @@
-body {
-  background-color: #343434;
+#frame {
+
+  position: relative;
+  background: url('../img/76488e74.png') no-repeat;
+  background-size: 450px 410px;
+  width: 450px;
+  height: 410px;
+  margin: 0 auto;
 }
 
 .container {
-  position: relative;
+  position: absolute;
+  top: 50px;
+  left: 75px;
   /*width: 80%;
   height: 80%;*/
   width: 300px;
@@ -21,8 +29,4 @@ body {
 .canvas {
   position: absolute;
   top: 0;
-}
-
-h1 {
-  color: white;
 }
