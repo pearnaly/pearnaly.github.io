@@ -1,0 +1,73 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/saveTheDate.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<div id="top-image"></div>
+
+<div id="content-container">
+  <h1>Save the date</h1>
+
+  <p>Bitte hinterlasse uns Deine Anschrift:</p>
+  <form id="form" action="https://formspree.io/f/xleokozr" method="POST">
+    <dl>
+      <dt>
+        <label for="name">
+          Name
+        </label>
+      </dt>
+      <dd>
+        <input id="name" type="text" name="name"/>
+      </dd>
+      <dt>
+        <label for="address">
+          Adresse
+        </label>
+      </dt>
+      <dd>
+        <textarea id="address" type="text" name="address"></textarea>
+      </dd>
+      <dt>
+        <label></label>
+      </dt>
+      <dd>
+        <button id="button" type="submit">Senden</button>
+      </dd>
+    </dl>
+  </form>
+  <div id="status" style="display: none">
+    Vielen Dank!
+  </div>
+</div>
+
+<div id="bottom-image"></div>
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/saveTheDate.js"></script>
+
+</body>
+
+</html>
