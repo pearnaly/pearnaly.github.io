@@ -29,6 +29,11 @@ body > div {
   min-height: 100px;
   background-size: contain;
   background: url("/img/anemones-bg-middle.png") no-repeat bottom;
+  background-size: contain;
+}
+
+#save-the-date-container {
+  padding: 60px 0 60px 0;
 }
 
 #address-container {
