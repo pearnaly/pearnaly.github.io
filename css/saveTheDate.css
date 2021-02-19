@@ -34,6 +34,8 @@ body > div {
 
 #save-the-date-container {
   padding: 60px 0 60px 0;
+  font-style: italic;
+  font-family: serif;
 }
 
 #address-container {

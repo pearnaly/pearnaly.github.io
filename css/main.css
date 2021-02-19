@@ -270,13 +270,10 @@ textarea {
 h1, h2, h3 {
   font-weight: 100;
   text-align: center;
-  font-style: italic;
-  font-family: serif;
 }
 
 h1 {
   font-size: 60px;
-  text-transform: uppercase;
 }
 
 h2 {
@@ -290,7 +287,6 @@ h3 {
 @media only screen and (max-width: 600px) {
 h1 {
   font-size: 10vw;
-  text-transform: uppercase;
 }
 
 h2 {
