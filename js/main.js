@@ -7,6 +7,7 @@
     canvas       = document.getElementById('js-canvas'),
     centoLink       = document.getElementById('cento-link'),
     rubImage       = document.getElementById('rubImage'),
+    subImage       = document.getElementById('subImage'),
     canvasWidth  = canvas.width,
     canvasHeight = canvas.height,
     ctx          = canvas.getContext('2d'),
@@ -21,6 +22,7 @@
     // document.querySelectorAll('.form')[0].style.visibility = 'visible';
     var pixels   = ctx.getImageData(0, 0, canvasWidth, canvasHeight);
     rubPixelsPdata    = pixels.data;
+    subImage.style = "display: block;"
   };
   // base64 Workaround because Same-Origin-Policy
   image.src = rubImage.src;//;'EU27-2008_European_Union_map.svg';
