@@ -1,17 +1,17 @@
 #frame {
-
   position: relative;
   background: url('../img/76488e74.png') no-repeat;
-  background-size: 450px 410px;
-  width: 450px;
-  height: 410px;
+  background-size: 390px 390px;
+  width: 390px;
+  height: 390px;
   margin: 0 auto;
+  z-index: 50;
 }
 
 .container {
   position: absolute;
   top: 50px;
-  left: 75px;
+  left: 45px;
   /*width: 80%;
   height: 80%;*/
   width: 300px;
