@@ -22,10 +22,14 @@ body > div {
 #photo {
   flex-grow: 0;
   flex-shrink: 0;
+  background-color: black;
 }
 
 #photo > img {
   width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: block;
 }
 
 #top-image {
