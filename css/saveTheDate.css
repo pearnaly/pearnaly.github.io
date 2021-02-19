@@ -12,15 +12,19 @@ body > div {
   flex-grow: 1;
 }
 
-#top-bar {
+/*#top-bar {
   height: 20px;
   flex-grow: 0.2;
   flex-shrink: 0;
   background-color: black;
+}*/
+
+#photo > img {
+  width: 100%;
 }
 
 #top-image {
-  min-height: 50px;
+  min-height: 100px;
   background: url("/img/anemones-bg-small.png") repeat-x;
   background-size: contain;
 }
