@@ -278,8 +278,8 @@ h1 {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-  background: url("../img/EU27-2008_European_Union_map_sub.svg") no-repeat center;
-  background-size: contain;
+  /*background: url("../img/EU27-2008_European_Union_map_sub.svg") no-repeat center;*/
+  /*background-size: contain;*/
 }
 
 .canvas {
