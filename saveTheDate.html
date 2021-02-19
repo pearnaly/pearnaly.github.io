@@ -25,44 +25,54 @@
 
 <body>
 
+<div id="top-bar"></div>
 <div id="top-image"></div>
-
-<div id="content-container">
-  <h1>Save the date</h1>
-
-  <p>Bitte hinterlasse uns Deine Anschrift:</p>
-  <form id="form" action="https://formspree.io/f/xleokozr" method="POST">
-    <dl>
-      <dt>
-        <label for="name">
-          Name
-        </label>
-      </dt>
-      <dd>
-        <input id="name" type="text" name="name"/>
-      </dd>
-      <dt>
-        <label for="address">
-          Adresse
-        </label>
-      </dt>
-      <dd>
-        <textarea id="address" type="text" name="address"></textarea>
-      </dd>
-      <dt>
-        <label></label>
-      </dt>
-      <dd>
-        <button id="button" type="submit">Senden</button>
-      </dd>
-    </dl>
-  </form>
-  <div id="status" style="display: none">
-    Vielen Dank!
-  </div>
+<div></div>
+<div id="save-the-date-container">
+  <h3>Save the date</h3>
+  <h2>Ramona &amp; Paul</h2>
+  <h1>27 August 2022</h1>
+  <h3>Cento, Fe, Italia</h3>
 </div>
 
 <div id="bottom-image"></div>
+
+<div id="address-container">
+  <div>
+    <p>Bitte hinterlasse uns Deine Anschrift:</p>
+    <form id="form" action="https://formspree.io/f/xleokozr" method="POST">
+      <dl>
+        <dt>
+          <label for="name">
+            Name
+          </label>
+        </dt>
+        <dd>
+          <input id="name" type="text" name="name"/>
+        </dd>
+        <dt>
+          <label for="address">
+            Adresse
+          </label>
+        </dt>
+        <dd>
+          <textarea id="address" type="text" name="address"></textarea>
+        </dd>
+        <br/>
+        <dt>
+          <label></label>
+        </dt>
+        <dd>
+          <button id="button" type="submit">Senden</button>
+        </dd>
+      </dl>
+    </form>
+    <div id="status" style="display: none">
+      Vielen Dank!
+    </div>
+  </div>
+</div>
+
 
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>

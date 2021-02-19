@@ -12,6 +12,13 @@ body > div {
   flex-grow: 1;
 }
 
+#top-bar {
+  height: 20px;
+  flex-grow: 0.2;
+  flex-shrink: 0;
+  background-color: black;
+}
+
 #top-image {
   /*position: relative;
   top: 0;
@@ -37,6 +44,20 @@ body > div {
   //z-index: -1;
 }
 
-#content-container {
+/*#save-the-date-container {
+  max-width: 500px;
   margin: auto;
+  position: relative;
+}*/
+
+#address-container {
+  background-color: black;
+  color: white;
+  flex-grow: 0;
+  padding: 30px;
+}
+
+#address-container > div {
+  margin: auto;
+  max-width: 250px;
 }
