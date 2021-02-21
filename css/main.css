@@ -7,6 +7,13 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+@font-face {
+  font-family: 'Hello Shilla';
+  src: url('/css/Hello Shilla/Hello Shilla.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/css/Hello Shilla/Hello Shilla.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/css/Hello Shilla/Hello Shilla.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
 * {
   box-sizing: border-box;
 }
@@ -277,7 +284,7 @@ h1 {
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 50px;
 }
 
 h3 {
@@ -290,7 +297,7 @@ h1 {
 }
 
 h2 {
-  font-size: 7vw;
+  font-size: 8vw;
 }
 
 h3 {

@@ -51,6 +51,10 @@ body > div {
   font-family: serif;
 }
 
+#save-the-date {
+  font-family: 'Hello Shilla', serif;
+}
+
 #address-container {
   background-color: black;
   color: white;
