@@ -22,7 +22,7 @@
     // document.querySelectorAll('.form')[0].style.visibility = 'visible';
     var pixels   = ctx.getImageData(0, 0, canvasWidth, canvasHeight);
     rubPixelsPdata    = pixels.data;
-    subImage.style = "display: block;"
+    subImage.style = "display: block;";
   };
   // base64 Workaround because Same-Origin-Policy
   image.src = rubImage.src;//;'EU27-2008_European_Union_map.svg';
@@ -89,6 +89,9 @@
     if (filledInPixels < 0.2) {
       canvas.parentNode.removeChild(canvas);
       centoLink.setAttribute('class', 'active-link');
+      setTimeout(() => {
+        document.getElementById('click-helper').style = "display: unset;";
+        }, 5000);
     }
   }
 
