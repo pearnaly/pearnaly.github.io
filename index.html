@@ -26,7 +26,12 @@
 <body>
 
 <!-- Add your site or application content here -->
-<h1>Please rub the map!</h1>
+<h1>
+  <span class="lang-en">Please rub the map!</span>
+  <span class="lang-de">Bitte rubble die Karte!</span>
+  <span class="lang-it">Gratta la cartina!</span>
+  <span class="lang-fr">Gratte la carte!</span>
+</h1>
 <div id="frame">
   <div class="container" id="js-container">
     <canvas class="canvas" id="js-canvas" width="300" height="300"></canvas>
@@ -54,11 +59,15 @@
         }
 
         #cento-text {
-          font: italic bold 12px serif;
+          font: bold 12px 'Montserat', sans-serif;
+        }
+
+        a.active-link > #cento-text {
+          font-style: italic;
         }
 
         a.active-link {
-          fill: blue; /* Even for text, SVG uses fill over color */
+          fill: blue;
           text-decoration: underline;
         }
       </style>
@@ -78,13 +87,14 @@
   </div>
 </div>
 <div class="loader" id="loader" style="display: none">
-  <img id="rubImage" src="img/EU27-2008_European_Union_map.svg">
-  <!--<img src="img/EU27-2008_European_Union_map_sub.svg">-->
+  <img id="rubImage" src="img/EU27-2008_European_Union_map.svg"/>
+  <!--<img src="img/EU27-2008_European_Union_map_sub.svg"/>-->
 </div>
 
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<script src="js/i18n.js"></script>
 
 
 </body>

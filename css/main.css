@@ -13,6 +13,41 @@
        url('/css/Hello Shilla/Hello Shilla.woff') format('woff'), /* Pretty Modern Browsers */
        url('/css/Hello Shilla/Hello Shilla.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
+@font-face {
+  font-family:Montserrat;
+  font-style:normal;
+  font-weight:400;
+  src:url(/css/Montserrat/Montserrat-Regular.woff) format("woff"),
+  url(/css/Montserrat/Montserrat-Regular.ttf) format("truetype")
+}
+@font-face {
+  font-family:Montserrat;
+  font-style:normal;
+  font-weight:600;
+  src:url(/css/Montserrat/Montserrat-Bold.woff) format("woff"),
+  url(/css/Montserrat/Montserrat-Bold.ttf) format("truetype")
+}
+@font-face {
+  font-family:Montserrat;
+  font-style:normal;
+  font-weight:300;
+  src:url(/css/Montserrat/Montserrat-Light.woff) format("woff"),
+  url(/css/Montserrat/Montserrat-Light.ttf) format("truetype")
+}
+@font-face {
+  font-family:Montserrat;
+  font-style:normal;
+  font-weight:200;
+  src:url(/css/Montserrat/Montserrat-ExtraLight.woff) format("woff"),
+  url(/css/Montserrat/Montserrat-ExtraLight.ttf) format("truetype")
+}
+@font-face {
+  font-family:Montserrat;
+  font-style:normal;
+  font-weight:100;
+  src:url(/css/Montserrat/Montserrat-Thin.woff) format("woff"),
+  url(/css/Montserrat/Montserrat-Thin.ttf) format("truetype")
+}
 
 * {
   box-sizing: border-box;
@@ -27,7 +62,7 @@ html {
   font-size: 1em;
   line-height: 1.4;
   /*font-style: italic;*/
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*
@@ -275,20 +310,23 @@ textarea {
 }
 
 h1, h2, h3 {
-  font-weight: 100;
+  font-weight: 300;
   text-align: center;
 }
 
 h1 {
+  margin-top: 0.80em;
+  margin-bottom: 0.1em;
   font-size: 60px;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 45px;
 }
 
 h3 {
   font-size: 30px;
+  margin: 10px 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -297,10 +335,14 @@ h1 {
 }
 
 h2 {
-  font-size: 8vw;
+  font-size: 7vw;
 }
 
 h3 {
   font-size: 5vw;
 }
+}
+
+.lang-de, .lang-it, .lang-fr {
+  display: none;
 }
