@@ -3,10 +3,10 @@
   'use strict';
 
   var isDrawing, lastPoint;
-  var container    = document.getElementById('js-container'),
+  var container  = document.getElementById('js-container'),
     canvas       = document.getElementById('js-canvas'),
-    centoLink       = document.getElementById('cento-link'),
-    rubImage       = document.getElementById('rubImage'),
+    centoLink    = document.getElementById('cento-link'),
+    rubImage     = document.getElementById('rubImage'),
     canvasWidth  = canvas.width,
     canvasHeight = canvas.height,
     ctx          = canvas.getContext('2d'),
