@@ -9,9 +9,9 @@
 
 @font-face {
   font-family: 'Hello Shilla';
-  src: url('/css/Hello Shilla/Hello Shilla.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/css/Hello Shilla/Hello Shilla.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/css/Hello Shilla/Hello Shilla.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('/css/Hello-Shilla/Hello-Shilla.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/css/Hello-Shilla/Hello-Shilla.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/css/Hello-Shilla/Hello-Shilla.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
   font-family:Montserrat;
