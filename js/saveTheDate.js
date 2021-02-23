@@ -2,17 +2,6 @@
 
   'use strict';
 
-  document.addEventListener('keydown', musicPlay);
-  document.addEventListener('click', musicPlay);
-  document.addEventListener('touch', musicPlay);
-
-  function musicPlay() {
-    document.getElementById('music').play();
-    document.removeEventListener('keydown', musicPlay);
-    document.removeEventListener('click', musicPlay);
-    document.removeEventListener('touch', musicPlay);
-  }
-
   // get the form elements defined in your form HTML above
 
   var form = document.getElementById("form");
