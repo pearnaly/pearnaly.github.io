@@ -45,12 +45,12 @@ body > div {
   background-size: contain;
 }
 
-#save-the-date-container {
+#save-the-date-text-zone {
   padding: 0 0 60px 0;
   /*font-family: serif;*/
 }
 
-.save-the-date {
+.save-the-date-text {
   font-style: italic;
   font-family: 'Hello Shilla', serif;
   margin-bottom: 0.67em;
